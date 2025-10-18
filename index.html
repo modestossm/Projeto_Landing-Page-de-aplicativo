@@ -12,12 +12,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>
-                Oi
-            </h1>
-        </div>
-    </header>
+    <div class="flex gap-1">
+        <a href="#" class="btn btn-sm">Label 1</a>
+        <a href="#" class="btn btn-md">Label 2</a>
+        <button href="#" class="btn btn-lg">Label 3</button>
+    </div>
+
+    <div class="flex gap-1">
+        <a aria-label="label" href="#" class="btn btn-sm"></a>
+        <a aria-label="label" href="#" class="btn btn-md"></a>
+        <button aria-label="label" href="#" class="btn btn-lg"></button>
+    </div>    
 </body>
 </html>
