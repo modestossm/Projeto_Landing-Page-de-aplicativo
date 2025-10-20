@@ -1,0 +1,14 @@
+footer {
+    & strong {
+        display: block;
+        font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+
+        color: var(--brand-color-primary);
+    }
+
+    & img {
+        padding-bottom: 1.5rem;
+    }
+}
