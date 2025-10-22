@@ -1,4 +1,8 @@
-footer {
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
     & strong {
         display: block;
         font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
@@ -8,7 +12,19 @@ footer {
         color: var(--brand-color-primary);
     }
 
-    & img {
-        padding-bottom: 1.5rem;
+    & .footer__nav {
+        display: flex;
+        gap: 6rem;
+    }
+
+    & .footer__nav--inner ul {
+        list-style-type: none;
+        & li {
+            padding-bottom: .4rem;
+        }
+
+        & .pad {
+            padding-bottom: 1.5rem;
+        }
     }
 }
